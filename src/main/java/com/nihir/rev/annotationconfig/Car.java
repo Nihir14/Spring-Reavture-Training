@@ -1,4 +1,4 @@
-package com.nihir.rev.annotation;
+package com.nihir.rev.annotationconfig;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

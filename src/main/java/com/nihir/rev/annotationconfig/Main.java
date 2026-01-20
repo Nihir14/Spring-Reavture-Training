@@ -1,4 +1,4 @@
-package com.nihir.rev.annotation;
+package com.nihir.rev.annotationconfig;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
