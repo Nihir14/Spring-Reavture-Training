@@ -1,4 +1,4 @@
-package com.nihir.rev.diexample;
+package com.nihir.rev.dependencyinjection;
 
 public class PaymentGateway {
 

@@ -1,16 +1,17 @@
-package com.nihir.rev.diexample;
+package com.nihir.rev.qualifierannotation;
 
+import com.nihir.rev.qualifierannotation.AppConfig;
+import com.nihir.rev.qualifierannotation.OrderService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class Main {
+public class MainApp {
 
     public static void main(String[] args) {
-
         ApplicationContext context =
                 new AnnotationConfigApplicationContext(AppConfig.class);
 
         OrderService orderService = context.getBean(OrderService.class);
-        orderService.placeOrder(2500);
+        orderService.placeOrder(500);
     }
 }

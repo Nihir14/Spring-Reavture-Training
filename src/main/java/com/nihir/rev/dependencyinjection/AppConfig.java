@@ -1,4 +1,4 @@
-package com.nihir.rev.diexample;
+package com.nihir.rev.dependencyinjection;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
