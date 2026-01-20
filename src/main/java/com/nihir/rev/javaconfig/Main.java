@@ -11,6 +11,8 @@ public class Main {
                 new AnnotationConfigApplicationContext(AppConfig.class);
 
         Car car = context.getBean(Car.class);
+        Car carDup = context.getBean(Car.class);
+        System.out.println(car == carDup);
         car.start();
     }
 }
