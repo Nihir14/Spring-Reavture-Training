@@ -16,5 +16,7 @@ public class MonoDemo {
         mono.subscribe(data -> System.out.println("Received : " + data),
                 error -> System.out.println("Error : " + error),
                 () -> System.out.println("Completed"));
+
+        Mono.just(5).map(i -> i * 2).subscribe(System.out::println);
     }
 }
